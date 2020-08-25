@@ -16,6 +16,8 @@ namespace GraficosDibujo
         DibujadorGraficos graficos;
         Main form;
 
+        string RutaImagenFondo =  @"..\..\images\MegaFlygonKudjulu.jpg";
+
         bool FiguraLista = true;
         #endregion
 
@@ -280,7 +282,7 @@ namespace GraficosDibujo
 
         public Color MostrarColorPicker()
         {
-            Color a = ColorPicker.ShowDialog(@"..\..\images\MegaFlygonKudjulu.jpg");
+            Color a = ColorPicker.ShowDialog(RutaImagenFondo);
             form.Focus();            
             return a;
         }
