@@ -3,7 +3,11 @@ Proyecto de Visual Studio 20xx.
 ### Proposito
 El proposito del software fue emplear practicas de programacion haciendo uso de la libreria de Graphics de net framework en c#.
 
-Esto para hacer dibujos (vectoriales) en un panel por capas y modificar cada elemento grafico que hallas agregado en tiempo real
+Esto para hacer dibujos en un panel y modificar cada elemento grafico que hallas agregado en tiempo real.
+
+No es realmente una herramienta para dibujo rapido y sencillo, mas bien una que aunque cumple con su funcion, su proposito esta mas orientado a ser una base
+para comprender el manejo de graficos como objetos, su almacenamiento, su dibujo en pantalla y el cambio en sus propiedades para modificar individualmente cada elemento 
+en tiempo real.
 
 ### Algo de su historia...
 Fue resultado de un proyecto escolar donde se nos pedia "dibujar" una ilustración tan solo ejecutando funciones *draw* (de graphics) en un form,
